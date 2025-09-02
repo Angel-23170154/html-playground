@@ -1,0 +1,38 @@
+/* 🎨 Estilos básicos para tu primera página */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+button {
+  background: #ff9800;
+  border: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e68900;
+}
